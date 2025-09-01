@@ -326,7 +326,7 @@ function EquicordSettings() {
 
 function DonateButtonComponent() {
     return (
-        <Flex>
+        <Flex style={{ gap: 4 }}>
             <DonateButton
                 look={Button.Looks.FILLED}
                 color={Button.Colors.TRANSPARENT}
