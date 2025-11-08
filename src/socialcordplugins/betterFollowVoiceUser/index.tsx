@@ -10,9 +10,9 @@ import { NavContextMenuPatchCallback } from "@api/ContextMenu";
 import { definePluginSettings } from "@api/Settings";
 import { SocialcordDevs } from "@utils/constants";
 import definePlugin, { OptionType } from "@utils/types";
+import { Channel, User, VoiceState } from "@vencord/discord-types";
 import { findByPropsLazy, findStoreLazy } from "@webpack";
 import { Menu, React } from "@webpack/common";
-import { VoiceState, Channel, User } from "@vencord/discord-types";
 
 type TFollowedUserInfo = {
     lastChannelId: string;
